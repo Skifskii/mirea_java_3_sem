@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class Shop {
 
-    private HashMap<String, Computer> computers = new HashMap<>();
+    private final HashMap<String, Computer> computers = new HashMap<>();
 
     public void addComputer(Computer computer) {
         this.computers.put(computer.getName(), computer);

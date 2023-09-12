@@ -7,7 +7,7 @@ public class TestAuthor {
         Author test_author = new Author("Peter", "peter@gmail.com", 'm');
         System.out.println("Имя автора: " + test_author.getName());
         Scanner sc = new Scanner(System.in);
-        String email = "";
+        String email;
         System.out.print("Введите email: ");
         email = sc.next();
         test_author.setEmail(email);

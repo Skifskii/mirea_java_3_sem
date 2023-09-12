@@ -1,8 +1,8 @@
 package prac_2.subprac_4;
 
 public class Computer {
-    private String name;
-    private int price;
+    private final String name;
+    private final int price;
 
     public Computer(String name, int price) {
         this.name = name;
