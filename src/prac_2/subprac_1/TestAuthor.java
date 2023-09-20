@@ -11,6 +11,6 @@ public class TestAuthor {
         System.out.print("Введите email: ");
         email = sc.next();
         test_author.setEmail(email);
+        System.out.println(test_author);
     }
 }
-

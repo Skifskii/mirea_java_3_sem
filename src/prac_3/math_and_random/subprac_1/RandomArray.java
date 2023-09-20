@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class RandomArray {
     public static void main(String[] args) {
-        int array_size = 3;
+        int array_size = 5;
         double[] array_class_random = new double[array_size];
         double[] array_method_random = new double[array_size];
 
