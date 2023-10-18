@@ -2,7 +2,7 @@ package prac_8;
 
 import java.util.Scanner;
 
-public class Main {
+public class subprac_12 {
     public static void recursion() {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
