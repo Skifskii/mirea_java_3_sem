@@ -1,4 +1,4 @@
-package prac_13.subtask_5;
+package prac_13.subprac_5;
 
 public class Main {
     public static String transformNumber(String oldNumber) {
